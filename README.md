@@ -104,4 +104,5 @@ Test Application
 
 ## Screenshots
 
-See screenshots folder.
+<img width="1366" height="767" alt="01-homepage png" src="https://github.com/user-attachments/assets/c67e23e9-f173-4bf3-babb-dba80022fc39" />
+
