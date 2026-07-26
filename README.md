@@ -103,13 +103,6 @@ Test Application
 ---
 
 ## Screenshots
-## 🏠 E-Commerce Application Homepage
-
-Successfully deployed the PHP-based E-Commerce application on an Amazon EC2 instance using the Apache Web Server. The homepage displays a responsive beauty product catalog with product images, names, prices, and an **Add to Cart** option. The application is integrated with Amazon RDS MySQL and designed to support a highly available AWS architecture using Auto Scaling and an Application Load Balancer.
-<img width="1366" height="767" alt="01-homepage png" src="https://github.com/user-attachments/assets/c67e23e9-f173-4bf3-babb-dba80022fc39" />
-
-<img width="1366" height="768" alt="02-add-products png" src="https://github.com/user-attachments/assets/316cb46e-845e-46b9-bfaa-3d9d9d664c63" />
-
 ##  🗄️ Amazon RDS MySQL
 ##  🔄 Amazon RDS Read Replica
 
@@ -136,14 +129,22 @@ Configured an Application Load Balancer (ALB) to distribute incoming HTTP traffi
 Created an Application Load Balancer Target Group to manage EC2 instances running the E-Commerce application. Configured HTTP health checks to monitor instance health and automatically route traffic only to healthy EC2 instances, ensuring high availability and reliable application performance.
 <img width="1354" height="758" alt="07-target-group png" src="https://github.com/user-attachments/assets/dfb09024-0f76-4836-8397-a684e39a42f3" />
 
-## 🖼️ Amazon Machine Image (AMI)
 
-Created a custom Amazon Machine Image (AMI) from the configured EC2 instance after installing Apache, PHP, and deploying the E-Commerce application. The AMI provides a reusable template for launching identical EC2 instances, ensuring consistent application deployment and faster recovery.
-<img width="1365" height="768" alt="08-ami png (2)" src="https://github.com/user-attachments/assets/6e7f8c0e-bef4-48a5-86ff-7946935d18a4" />
 ## 🚀 EC2 Launch Template
 
 Created an EC2 Launch Template using the custom AMI, instance type, security group, key pair, and user data script. The Launch Template enables automated and consistent EC2 instance provisioning for the Auto Scaling Group.
 <img width="1361" height="767" alt="05-launch-template png" src="https://github.com/user-attachments/assets/f0e2d56b-221c-48a5-9374-33beaf80781d" />
+## 🖼️ Amazon Machine Image (AMI)
+
+Created a custom Amazon Machine Image (AMI) from the configured EC2 instance after installing Apache, PHP, and deploying the E-Commerce application. The AMI provides a reusable template for launching identical EC2 instances, ensuring consistent application deployment and faster recovery.
+<img width="1365" height="768" alt="08-ami png (2)" src="https://github.com/user-attachments/assets/6e7f8c0e-bef4-48a5-86ff-7946935d18a4" />
+## 🏠 E-Commerce Application Homepage
+
+Successfully deployed the PHP-based E-Commerce application on an Amazon EC2 instance using the Apache Web Server. The homepage displays a responsive beauty product catalog with product images, names, prices, and an **Add to Cart** option. The application is integrated with Amazon RDS MySQL and designed to support a highly available AWS architecture using Auto Scaling and an Application Load Balancer.
+<img width="1366" height="767" alt="01-homepage png" src="https://github.com/user-attachments/assets/c67e23e9-f173-4bf3-babb-dba80022fc39" />
+
+<img width="1366" height="768" alt="02-add-products png" src="https://github.com/user-attachments/assets/316cb46e-845e-46b9-bfaa-3d9d9d664c63" />
+
 
 
 
