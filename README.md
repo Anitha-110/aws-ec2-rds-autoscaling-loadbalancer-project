@@ -141,9 +141,7 @@ Created a custom Amazon Machine Image (AMI) from the configured EC2 instance aft
 ## 🏠 E-Commerce Application Homepage
 
 Successfully deployed the PHP-based E-Commerce application on an Amazon EC2 instance using the Apache Web Server. The homepage displays a responsive beauty product catalog with product images, names, prices, and an **Add to Cart** option. The application is integrated with Amazon RDS MySQL and designed to support a highly available AWS architecture using Auto Scaling and an Application Load Balancer.
-<img width="1366" height="767" alt="01-homepage png" src="https://github.com/user-attachments/assets/c67e23e9-f173-4bf3-babb-dba80022fc39" />
-
-<img width="1366" height="768" alt="02-add-products png" src="https://github.com/user-attachments/assets/316cb46e-845e-46b9-bfaa-3d9d9d664c63" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/2bb9689e-2737-41b6-a64d-42e6fe2a699d" />
 
 
 
